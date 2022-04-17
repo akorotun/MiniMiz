@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-weight: 400;
+    background: #fff;
+}
+
+img {
+    max-width: 100%;/* все картинки будут по ширине 100% родительского элемента и не вылазят за пределы экрана */
+}
+
+a {
+    color: #ff5644;
+    text-decoration: none;
+    transition: all 600ms ease;/* плавный переход с одного цвета в другой */
+}
+
+/* стили ссылок при наведении */
+a:hover {
+    color: #8bddff;
+    transition: all 600ms ease;/* плавный переход с одного цвета в другой */
+}
+
+/* container - основной блок */
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 70%;
+}
+
+/* адаптивность сайта */
+@media (max-width: 900px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+    }
+}
+
+/* header */
+header > .top-menu {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+    text-transform: none;
+    align-items: center;
+}
+
+/* для ссылок в верхнем меню */
+header > .top-menu > .nav a {
+    color: #333;
+    margin-right: 10px;
+    font-weight: 600;
+    text-transform: none;
+    text-decoration: underline;
+}
+
+/* для ссылок в верхнем меню - эффект при наведении */
+header > .top-menu > .nav a:hover {
+    color: #757575;
+}
+
+header > .middle {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: 60px;
+}
+
+.btn {
+    width: 130px;
+    height: 40px;
+    background: #333;
+    border-radius: 5px;
+    border: 0;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 600ms ease;
+}
+
+.btn_block {
+    width: 130px;
+    height: 40px;
+    background: #333;
+    border-radius: 5px;
+    border: 0;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 600ms ease;
+}
+
+.links .btn_links {
+    width: 80px;
+    height: 20px;
+    background: #ff5644;
+    border-radius: 5px;
+    border: 0;
+    font-size: 10px;
+    margin-top: 3px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 600ms ease;
+}
+
+/* эффект при наведении на кнопки */
+.btn:hover {
+    transition: all 600ms ease;
+    transform: scale(1.05) translateY(-5px); /* сам эффект - увеличили на 5% и подняли вверх на 5px */
+    box-shadow: 0px 10px 20px -2px rgba(0,0,0,0.3); /* тень - cssmatic.com/box-shadow */
+}
+
+.main {
+    width: 500px;
+    margin: 30px auto;
+    padding-bottom: 50px;
+}
+
+.about {
+    width: 700px;
+}
+
+.about1 {
+    text-align: center;
+}
+
+.blockquote-7 {
+    border: 2px solid #ff5644;
+    font-size: 16px;
+    font-style: italic;
+    margin: 16px 31px 31px 16px;
+    padding: 10px 24px;
+    position: relative;
+    box-shadow: 5px 5px 0 0 #ff5644;
+}
+.blockquote-7 cite {
+    color: #ff5644;
+    font-size: 15px;
+    padding-top: 5px;
+    display: block;
+    text-align: right;
+}
+
+.mini {
+    color: #ff5644;
+}
+
+.crop_img {
+    max-height: 80px;
+}
+.crop {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.links {
+    margin-top: 10px;
+    padding: 5px 5px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-weight: 400;
+    background: #c0c0c0;
+    border-radius: 5px;
+}
+
+/* footer */
+footer {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: gray;
+}
+
+footer > .social > i {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 25%;
+    border: 1px solid;
+    margin-left: 5ps;
+    cursor: pointer;
+    color: #333;
+    transition: all 600ms ease;
+}
+
+footer > .social > i:hover {
+    transition: all 600ms ease;
+    transform: translateY(-5px);/* при наведении - поднимается на 5px */
+}

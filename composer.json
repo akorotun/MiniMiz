@@ -1,0 +1,16 @@
+{
+    "name": "vendor/minimiz",
+    "description": "minimising links",
+    "type": "project",
+    "authors": [
+        {
+            "name": "AndreyKorotun",
+            "email": "korotun.a@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master",
+        "erusev/parsedown": "dev-master"
+    }
+}
