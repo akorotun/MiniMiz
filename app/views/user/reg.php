@@ -5,13 +5,13 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Регистрация">
-    <title>Регистрация</title>
+    <meta name="description" content="Реєстрація">
+    <title>Реєстрація</title>
 
     <link rel="stylesheet" href="/public/css/main.css">
     <link rel="stylesheet" href="/public/css/form.css">
 
-    <!-- подключаем шрифты Font Awesome -->
+    <!-- подключаємо шрифти Font Awesome -->
     <script src="https://kit.fontawesome.com/d5dce6c679.js" crossorigin="anonymous"></script>
 
 </head>
@@ -19,13 +19,13 @@
     <?php require 'public/blocks/header.php' ?>
 
     <div class="container main">
-        <h1>Регистрация</h1>
+        <h1>Реєстрація</h1>
 
         <form action="/user/reg" method="post" class="form-control">
-            <input type="text" name="login" placeholder="Введите логин" value="<?=$_POST['login']?>"><br>
-            <input type="email" name="email" placeholder="Введите email" value="<?=$_POST['email']?>"><br>
-            <input type="password" name="pass" placeholder="Введите пароль" value="<?=$_POST['pass']?>"><br>
-            <input type="password" name="re_pass" placeholder="Повторите пароль" value="<?=$_POST['re_pass']?>"><br>
+            <input type="text" name="login" placeholder="Введіть логін" value="<?=$_POST['login']?>"><br>
+            <input type="email" name="email" placeholder="Введіть email" value="<?=$_POST['email']?>"><br>
+            <input type="password" name="pass" placeholder="Введіть пароль" value="<?=$_POST['pass']?>"><br>
+            <input type="password" name="re_pass" placeholder="Повторіть пароль" value="<?=$_POST['re_pass']?>"><br>
             <div class="error"><?=$data['message']?></div>
             <button class="btn" id="send">Готово</button>
         </form>

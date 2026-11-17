@@ -5,8 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Обратная связь">
-    <title>Контакты</title>
+    <meta name="description" content="Зворотній зв'язок">
+    <title>Контакти</title>
 
     <link rel="stylesheet" href="/public/css/main.css">
     <link rel="stylesheet" href="/public/css/form.css">
@@ -19,15 +19,15 @@
 <?php require 'public/blocks/header.php' ?>
 
 <div class="container main">
-    <h1>Обратная связь</h1>
-    <p>Напишите нам, если у вас есть вопросы</p>
+    <h1>Зворотній зв'язок</h1>
+    <p>Напишіть нам, якщо у вас є запитання</p>
     <form action="/contact" method="post" class="form-control">
-        <input type="text" name="name" placeholder="Введите имя" value="<?=$_POST['name']?>"><br>
-        <input type="email" name="email" placeholder="Введите email" value="<?=$_POST['email']?>"><br>
-        <input type="text" name="age" placeholder="Введите возраст" value="<?=$_POST['age']?>"><br>
-        <textarea name="message" placeholder="Введите сообщение"><?=$_POST['message']?></textarea>
+        <input type="text" name="name" placeholder="Введіть ім'я" value="<?=$_POST['name']?>"><br>
+        <input type="email" name="email" placeholder="Введіть email" value="<?=$_POST['email']?>"><br>
+        <input type="text" name="age" placeholder="Введіть вік" value="<?=$_POST['age']?>"><br>
+        <textarea name="message" placeholder="Введіть повідомлення"><?=$_POST['message']?></textarea>
         <div class="error"><?=$data['message']?></div>
-        <button class="btn" id="send">Отправить</button>
+        <button class="btn" id="send">Відправити</button>
     </form>
 
 </div>

@@ -129,13 +129,13 @@ header .logo {
 }
 
 .main {
-    width: 500px;
+    /*width: 500px;*/
     margin: 30px auto;
     padding-bottom: 50px;
 }
 
 .about {
-    width: 700px;
+    /*width: 700px;*/
 }
 
 .about1 {

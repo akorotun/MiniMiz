@@ -5,11 +5,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Страница про компанию">
-    <title>Страница про компанию</title>
+    <meta name="description" content="Сторінка про компанію">
+    <title>Сторінка про компанію</title>
 
     <link rel="stylesheet" href="/public/css/main.css">
-    <!-- подключаем шрифты Font Awesome -->
+    <!-- подключаемо шрифти Font Awesome -->
     <script src="https://kit.fontawesome.com/d5dce6c679.js" crossorigin="anonymous"></script>
 
 </head>
@@ -17,61 +17,61 @@
     <?php require 'public/blocks/header.php' ?>
 
     <div class="container main about">
-        <h2 class="about1">Как Вы уже заметили, мы любим минимализм :)</h2>
-        <h4 class="about1">Интересные цитаты о минимализме:</h4><br>
+        <h2 class="about1">Як ви вже помітили, ми полюбляємо мінімалізм :)</h2>
+        <h4 class="about1">Цікаві цитати про мінімалізм:</h4><br>
 
         <blockquote class="blockquote-7">
-            <p>Минимализм заключается не в отсутствии чего-то. Это просто идеальное количество чего-то.</p>
-            <cite>Николас Берроуз</cite>
+            <p>Мінімалізм — це не відсутність чогось, а саме та кількість, яка потрібна.</p>
+            <cite>Ніколас Берроуз</cite>
         </blockquote>
 
         <blockquote class="blockquote-7">
-            <p>Секрет счастья не в стремлении обладать большим количеством, но в способности получать удовольствие от меньшего.</p>
+            <p>Секрет щастя не в прагненні мати більше, а у здатності радіти меншому.</p>
             <cite>Сократ</cite>
         </blockquote>
 
         <blockquote class="blockquote-7">
-            <p>Беспорядок душит. Простота даёт дышать.</p>
-            <cite>Терри Гиймент</cite>
+            <p>Безлад душить. Простота дає змогу дихати.</p>
+            <cite>Террі Гіймент</cite>
         </blockquote>
 
         <blockquote class="blockquote-7">
-            <p>Спокойствие в доме способствует спокойствию в сердце, что, в свою очередь, способствует размеренности в жизни.</p>
-            <cite>Эрика Лэйне</cite>
+            <p>Спокій у домі дарує спокій серцю, а з ним приходить і розміреність у житті.</p>
+            <cite>Еріка Лейне</cite>
         </blockquote>
 
         <blockquote class="blockquote-7">
-            <p>В характере, в манерах, в стиле, во всем прекрасное — это простота.</p>
-            <cite>Генри Лонгфелло</cite>
+            <p>У характері, манерах, стилі — в усьому прекрасна простота.</p>
+            <cite>Генрі Лонгфелло</cite>
         </blockquote>
 
         <blockquote class="blockquote-7">
-            <p>Принято считать, что роскошь — противоположность нищеты. Нет, роскошь — противоположность вульгарности.</p>
+            <p>Вважають, що розкіш — протилежність злидням. Ні, розкіш — протилежність вульгарності.</p>
             <cite>Коко Шанель</cite>
         </blockquote>
 
         <blockquote class="blockquote-7">
-            <p>Стиль — это простой способ говорить сложные вещи.</p>
+            <p>Стиль — це простий спосіб говорити про складне.</p>
             <cite>Жан Кокто</cite>
         </blockquote>
 
         <blockquote class="blockquote-7">
-            <p>У меня непритязательный вкус: мне вполне достаточно самого лучшего.</p>
-            <cite>Оскар Уайльд</cite>
+            <p>У мене невибагливий смак: мені цілком достатньо найкращого.</p>
+            <cite>Оскар Вайлд</cite>
         </blockquote>
 
         <blockquote class="blockquote-7">
-            <p>Человек творящий творит сам. Это всегда важнее, чем устоявшийся стиль или система.</p>
-            <cite>Брюс Ли</cite>
+            <p>Творча людина творить сама. Це завжди важливіше за усталений стиль чи систему.</p>
+            <cite>Брюс Лі</cite>
         </blockquote>
 
         <blockquote class="blockquote-7">
-            <p>Простота — высшая ступень искусства.</p>
-            <cite>Брюс Ли</cite>
+            <p>Простота — найвищий ступінь мистецтва.</p>
+            <cite>Брюс Лі</cite>
         </blockquote>
 
         <div class="nav">
-        <a href="/">Вернуться на главную</a>
+        <a href="/">Повернутися на головну</a>
         </div>
 
     </div>
